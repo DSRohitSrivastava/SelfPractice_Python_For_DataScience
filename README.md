@@ -155,14 +155,14 @@ print(space)  # You don't see the printed empty space
 print(full_name) # there is indent because of the trailing space in the full name is string
 
 ```
-    Rohit
-    5
-    Srivastava
-    10
-    India
-
-     Rohit Srivastava
-
+	Rohit
+	5
+	Srivastava
+	10
+	India
+	
+	Rohit Srivastava
+	
 ### String Concatination
 
 Merging two or more strings together is called **_concatination_**
@@ -204,7 +204,7 @@ space = ' '
 full_Name = first_name + space + last_name;
 
 
-```py
+```python
 	# Changing string to lower case
 	print('=== change to lower case ===')
 	print(first_name.lower())
@@ -218,7 +218,7 @@ full_Name = first_name + space + last_name;
     srivastava
     rohit srivastava
 	
-
+```python
 # Changing string to upper case
 print('=== change to upper case ===')
 print(first_name.upper())
@@ -232,6 +232,8 @@ print(full_Name.upper())
     SRIVASTAVA
     ROHIT SRIVASTAVA
 
+
+```python
 # Changing string to capitalize
 print('=== change to capitalize ===')
 print(first_name.capitalize())
@@ -247,6 +249,7 @@ print(full_Name.capitalize())
     Rohit srivastava
 	
 	
+```python
 
 # Changing string to capitalize
 
@@ -271,7 +274,7 @@ print(level.title())
 
 	
 	
-
+```python
 # Changing string to swapcase()
 print('=== swapping cases ===')
 
@@ -296,7 +299,7 @@ print(full_name.swapcase())
 
     rOHIT sRIVASTAVA
 
-
+```python
 ### Spliting string
 
 Empty space is the default paramter.
@@ -312,17 +315,17 @@ last_name = 'Srivastava'
 full_name = 'Rohit Srivastava'
 programming_lang = 'python, R, matlab, and Java'
 
-
+```python
 # Changing a string to list
 print(first_name.split())
 print(list(first_name))
 print(full_name.split(' '))
 print(programming_lang.split(','))
 
-
+```python
 # To check the length of string
 print(len(first_name))
-
+```python
 # To check the data type of the string
 print(type(first_name))
 ```
@@ -333,7 +336,7 @@ print(type(first_name))
 	['python', ' R', ' matlab', ' and Java']
     5
     <class 'str'>
-
+```python
 #### String Formatting
 
 ### Exercises- Strings
