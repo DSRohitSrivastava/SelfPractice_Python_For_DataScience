@@ -124,10 +124,9 @@ In later sections, we will go in detail about each and every python data type.
 
 **Example:**
 
-```python
+```py
 {3.14, 9.81, 2.7} # order is not important in set
-
-
+```
 
 <h1 align="center" style="color:#306998;font-size:64px;">PYTHON DATA TYPES</h1>
 
