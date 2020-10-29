@@ -65,8 +65,8 @@ A collection of one or more characters under a single or double quote. If a stri
 **Example:**
 
 ```py
-'Asabeneh'
-'Finland'
+'Rohit'
+'Srivastava'
 'Python'
 'I love teaching'
 'I hope you are enjoying Python for Everyone'
@@ -92,7 +92,7 @@ Python list is an ordered collection which allows to store different data type i
 ```py
 [0, 1, 2, 3, 4, 5]  # all are the same data types - a list of numbers
 ['Banana', 'Orange', 'Mango', 'Avocado'] # all the same data types - a list of strings (fruits!)
-['Finland','Estonia', 'Sweden','Norway'] # all the same data types - a list of strings (countries!)
+['Noida','Lucknow', 'New Delhi','Jaipur'] # all the same data types - a list of strings (countries!)
 ['Banana', 10, False, 9.81] # different data types in the list - string, integer, boolean and float
 ```
 
@@ -103,7 +103,7 @@ A python dictionary object is an unordered collection of data in a key:value pai
 **Example:**
 
 ```py
-{'name':'Asabeneh', 'country':'Finland', age:250, 'is_married':True}
+{'name':'Rohit', 'country':'India', age:250, 'is_married':True}
 ```
 
 #### Tuple
@@ -113,7 +113,7 @@ A tuple is an ordered collection of different data types like list but tuples ca
 **Example:**
 
 ```py
-('Asabeneh', 'Brook', 'Abraham', 'Lidiya')
+('Rohit', 'Book', 'Pen', 'Mouse')
 ```
 
 #### Set
@@ -139,7 +139,7 @@ Different data types in python. There are different data type in python programm
 
 String is data type. Any data under single or double quot are a string. There are diferent string methods to deal with string data types. To check the length of a string use the **_len()_** method.
 
-```python
+```py
 # Assigning variables to string value
 
 first_name = "Rohit"
@@ -147,7 +147,9 @@ space = ' ' # an empty space string
 last_name = "Srivastava"
 country = "India"
 full_name = ' Rohit Srivastava'
+```
 
+```py
 print(first_name)
 print(len(first_name))
 print(last_name)
