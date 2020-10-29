@@ -137,7 +137,7 @@ Different data types in python. There are different data type in python programm
 
 String is data type. Any data under single or double quot are a string. There are diferent string methods to deal with string data types. To check the length of a string use the **_len()_** method.
 
-```py
+```python
 # Assigning variables to string value
 
 first_name = "Rohit"
@@ -145,9 +145,7 @@ space = ' ' # an empty space string
 last_name = "Srivastava"
 country = "India"
 full_name = ' Rohit Srivastava'
-```
 
-```py
 print(first_name)
 print(len(first_name))
 print(last_name)
