@@ -131,7 +131,6 @@ In later sections, we will go in detail about each and every python data type.
 <h1 align="center" style="color:#306998;font-size:64px;">PYTHON DATA TYPES</h1>
 
 Different data types in python. There are different data type in python programming. To identify the data tpe we use the type method.
-```
 
 
 ## Strings
