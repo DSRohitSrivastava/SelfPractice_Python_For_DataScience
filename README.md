@@ -124,7 +124,7 @@ In later sections, we will go in detail about each and every python data type.
 
 **Example:**
 
-```py
+```python
 {3.14, 9.81, 2.7} # order is not important in set
 
 
@@ -132,7 +132,7 @@ In later sections, we will go in detail about each and every python data type.
 <h1 align="center" style="color:#306998;font-size:64px;">PYTHON DATA TYPES</h1>
 
 Different data types in python. There are different data type in python programming. To identify the data tpe we use the type method.
-
+```
 
 
 ## Strings
@@ -207,13 +207,15 @@ lastName = 'Srivastava'
 space = ' '
 full_Name = first_name + space + last_name;
 
-# Changing string to lower case
-print('=== change to lower case ===')
-print(first_name.lower())
-print(last_name.lower())
-print(full_Name.lower())
 
-```
+```py
+	# Changing string to lower case
+	print('=== change to lower case ===')
+	print(first_name.lower())
+	print(last_name.lower())
+	print(full_Name.lower())
+
+```py
 
     === change to lower case ===
     rohit
